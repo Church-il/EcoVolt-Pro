@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecovolt Pro Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ecovolt Pro</h1>
+    </header>
+    <div id="chargingCompleteNotification" class="notification">
+  Charging Complete!
+</div>
+    <main>
+        <div class="container">
+            <section id="left-column">
+                <section id="charging-form">
+                    <h2>Start Charging</h2>
+                    <form id="chargingForm">
+                        <label for="vehicleId">Vehicle ID:</label>
+                        <input type="text" id="vehicleId" name="vehicleId" pattern="[A-Z]{3}[0-9]{3}" title="Enter three uppercase letters followed by three numbers" required>
+                        
+                        <label for="chargingAmount">Charging Amount (KES):</label>
+                        <input type="number" id="chargingAmount" name="chargingAmount" min="0" required>
+                        
+                        <button type="submit">Start Charging</button>
+                    </form>
+                </section>
+                <section id="charging-status" class="hidden">
+                    <h2>Charging Status</h2>
+                    <div id="statusContainer">
+                        <!-- Charging status will be dynamically loaded here -->
+                    </div>
+                    <div id="chargingProgress">
+                        <p>Charging Progress:</p>
+                        <progress id="progressBar" value="0" max="100"></progress>
+                        <p id="timeRemaining">Estimated Time Remaining: 00:00</p>
+                    </div>
+                   
+
+                    <button id="endSessionButton">End Session</button>
+                </section>
+                <section id="notifications">
+                    <!-- Notifications will be dynamically loaded here -->
+                </section>
+            </section>
+            <section id="right-column">
+                <div class="chart-wrapper">
+                    <h2>Charging Data Overview</h2>
+                    <canvas id="chargingPieChart"></canvas>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

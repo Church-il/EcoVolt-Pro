@@ -1,0 +1,104 @@
+{
+  "chargingSessions": [
+    
+      {
+        "vehicleId": "XYZ124",
+        "chargingAmountKES": 456,
+        "chargingPercentage": 0.75,
+        "chargingStartTime": "2024-08-05T10:00:00Z",
+        "chargingEndTime": "2024-08-05T10:10:00Z",
+        "totalCostKES": 456,
+        "chargingDuration": 600
+    },
+    {
+      "id": "e5bf",
+      "vehicleId": "GFR345",
+      "chargingAmountKES": 500,
+      "chargingPercentage": 5,
+      "chargingStartTime": "2024-08-04T20:54:31.530Z",
+      "chargingEndTime": "2024-08-04T20:54:32.030Z",
+      "totalCostKES": 500,
+      "chargingDuration": 500
+    },
+    {
+      "id": "cda0",
+      "vehicleId": "ASD432",
+      "chargingAmountKES": 10000,
+      "chargingPercentage": 100,
+      "chargingStartTime": "2024-08-04T20:55:01.277Z",
+      "chargingEndTime": "2024-08-04T20:55:11.277Z",
+      "totalCostKES": 10000,
+      "chargingDuration": 10000
+    },
+    {
+      "id": "604a",
+      "vehicleId": "XYZ123",
+      "chargingAmountKES": 60,
+      "chargingPercentage": 0.6,
+      "chargingStartTime": "2024-08-04T21:05:09.136Z",
+      "chargingEndTime": "2024-08-04T21:05:09.196Z",
+      "totalCostKES": 60,
+      "chargingDuration": 60
+    },
+    {
+      "id": "b224",
+      "vehicleId": "XYZ123",
+      "chargingAmountKES": 60,
+      "chargingPercentage": 0.6,
+      "chargingStartTime": "2024-08-04T21:05:53.710Z",
+      "chargingEndTime": "2024-08-04T21:05:53.770Z",
+      "totalCostKES": 60,
+      "chargingDuration": 60
+    },
+    {
+      "id": "dacc",
+      "vehicleId": "XYZ124",
+      "chargingAmountKES": 200,
+      "chargingPercentage": 2,
+      "chargingStartTime": "2024-08-04T21:08:18.174Z",
+      "chargingEndTime": "2024-08-04T21:08:18.374Z",
+      "totalCostKES": 200,
+      "chargingDuration": 200
+    },
+    {
+      "id": "db01",
+      "vehicleId": "ASD500",
+      "chargingAmountKES": 560,
+      "chargingPercentage": 5.6,
+      "chargingStartTime": "2024-08-04T21:14:31.219Z",
+      "chargingEndTime": "2024-08-04T21:14:31.779Z",
+      "totalCostKES": 560,
+      "chargingDuration": 559.9999999999999
+    },
+    {
+      "id": "c705",
+      "vehicleId": "XYZ124",
+      "chargingAmountKES": 1000,
+      "chargingPercentage": 10,
+      "chargingStartTime": "2024-08-04T21:16:49.085Z",
+      "chargingEndTime": "2024-08-04T21:16:50.085Z",
+      "totalCostKES": 1000,
+      "chargingDuration": 1000
+    },
+    {
+      "id": "ba09",
+      "vehicleId": "FRT345",
+      "chargingAmountKES": 500,
+      "chargingPercentage": 5,
+      "chargingStartTime": "2024-08-04T21:17:10.619Z",
+      "chargingEndTime": "2024-08-04T21:17:11.119Z",
+      "totalCostKES": 500,
+      "chargingDuration": 500
+    },
+    {
+      "id": "4e45",
+      "vehicleId": "NDJ123",
+      "chargingAmountKES": 450,
+      "chargingPercentage": 4.5,
+      "chargingStartTime": "2024-08-04T21:17:33.324Z",
+      "chargingEndTime": "2024-08-04T21:17:33.774Z",
+      "totalCostKES": 450,
+      "chargingDuration": 450
+    }
+  ]
+}
